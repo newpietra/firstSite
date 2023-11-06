@@ -1,0 +1,95 @@
+@colorText: #a276ff; 
+@font-family:"Oswald", sans-serif;
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 10px;
+}
+
+body {
+    font-size: 1,6rem;
+    font-family: 'Roboto', sans-serif;
+    color: #fff;
+    width: 100vw;
+    height: 100vh;
+    background-image: url(style/img/bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+
+}
+.body.bg{  
+background-color: #1b1d3a91;
+width: 100vw;
+height: 100vh;
+}
+
+.main-header {
+    background-color: #0b0b0da7;
+    display: inline-block;
+}
+
+.logo {  
+    margin: 80px 0 0 95px;
+    font-size: 30px;
+    text-transform: uppercase;
+    font-family: @font-family;
+    font-weight: 400;
+    //.logo_text
+    
+    &_text {
+        color: @colorText;
+         }
+}
+.block-nav {
+    margin-top: 94px;
+    margin-left: 139px;
+}
+.nav-list {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+}
+.nav-item>{
+    font-family: @font-family;
+    font-weight: 400;
+
+    //.nav-item_link
+
+    &_link {
+}
+}
+
+.block-support {
+    margin-top: 150x;
+    margin-left: 139px;
+       
+       .support {
+        font-family:@font-family ;
+        color: #fff;
+        
+    //.support_link
+        &_link{
+    }
+    }
+}
+.block-contact {
+    margin-top: 200px;
+    margin-left: 139px;
+    
+       .contact {
+        font-family: @font-family;
+        color: #fff;    
+        
+     //.contact_link
+     &_link {
+
+     }
+ }
+}
